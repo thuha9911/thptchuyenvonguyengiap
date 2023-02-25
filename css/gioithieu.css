@@ -1,0 +1,197 @@
+section marquee {
+    padding: 14px 0;
+    color: #444;
+    font-size: 17px;
+}
+
+section {
+    margin-top: 100px;
+
+
+}
+
+/* section P1 */
+section .container .content {
+    position: relative;
+    /* margin-left: 60px;
+    margin-right: 60px; */
+}
+
+section .container .content .content-detail h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section .container .content-detail div.icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .container div.icon {
+    font-size: 30px;
+}
+
+section .container .content p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+section .container .content .content-detail .content-detail-info h4 {
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
+    /* border-bottom: 2px solid #8b4303; */
+}
+
+section .container .content-detail .content-detail-info h4 i {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+section .container .content-detail .content-detail-info .detail-pa {
+    display: flex;
+    gap: 40px;
+}
+
+section .container .content .content-detail .content-detail-info .detail-pa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+section .container .content .content-detail .content-detail-info .detail-pa .gioithieu {
+    display: flex;
+    gap: 30px;
+}
+
+section .container .content .content-detail .content-detail-info .detail-pa .gioithieu img {
+    width: 40%;
+}
+
+/* imagesdt */
+section .container .content .content-detail .content-detail-info img {
+    width: 70%;
+}
+
+section .container .content .content-detail figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .container .content .content-detail figure .img1 {
+    width: 90%;
+}
+
+section .container .content .content-detail figure figcaption {
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* section P1 */
+
+
+/* section P2 */
+section .staff-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .staff-head p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+section .staff-head h3 {
+    margin-top: 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+section .staff {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+section .staff .staff1 {
+    box-shadow: 0 0 10px rgb(206, 206, 206);
+    background-color: rgba(118, 118, 118, 0.053);
+    width: 250px;
+    height: 400px;
+}
+
+section .staff .staff1 img {
+    width: 100%;
+    height: 75%;
+}
+
+section .staff .staff1 .name {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section .staff .staff1 .name a {
+    color: #444;
+    font-weight: 600;
+
+}
+
+section .staff .staff1 .chucvu {
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* end section P2 */
+
+/* section P3 */
+section .images::before {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.734);
+    z-index: -1;
+}
+
+section .images {
+    margin-bottom: 50px;
+    z-index: -2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    background-image: url("../images/toancanh.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .images .information {
+    display: flex;
+}
+
+section .images .information i {
+    color: #e7e7e7;
+    font-size: 100px;
+}
+
+section .images .information .info1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+section .images .information .inform:nth-child(2) {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(241, 241, 241);
+}

@@ -1,0 +1,197 @@
+/* content */
+section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    border: 2px solid #8b4303;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+section marquee {
+    padding: 14px 0;
+    color: #444;
+    font-size: 17px;
+}
+
+section .title .icon1 {
+    font-size: 16px;
+    color: #444;
+}
+
+section .title h2 a {
+    color: #000;
+    font-size: 22px;
+}
+
+section .container .content-left {
+    grid-area: 1/1/2/2;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+section .container .content-left2 {
+    margin: 40px auto;
+}
+
+
+section .container .btm h4{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+section .container .content-left-detail {
+    display: inline-block;
+}
+
+section .container .content-left-detail ul {
+    list-style: none;
+}
+
+section .container .content-left-detail1 {
+    margin-left: 80px;
+}
+
+section .container .content-left-detail ul li {
+    margin: 20px 0;
+}
+
+section .container .content-left-detail ul.bold {
+    font-weight: 500;
+}
+
+section .container .content-right {
+    grid-area: 1/2/3/3;
+}
+
+section .container .content-right form {
+    margin: 20px 40px;
+}
+
+section .container .content-right .line {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+section .container .content-right form label {
+    width: 130px;
+    margin-right: 50px;
+}
+
+section .container .content-right form .line input {
+    width: calc(100% - 180px);
+    height: 35px;
+    outline: none;
+}
+
+section .container .content-right form .line input,
+section .container .content-right form .line textarea {
+    padding: 6px;
+    outline: none;
+    border: 1px solid #8b4303;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+section .container .content-right form .line textarea {
+    width: calc(100% - 180px);
+    outline: none;
+}
+
+section .container .content-right form .line textarea:focus,
+section .container .content-right form .line input:focus {
+    box-shadow: 0 0 5px #daad86;
+    border: 1px solid #fcad68;
+}
+
+section .container .content-right form .btn1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section .container .content-right form .btn1 p {
+    margin-right: 20px;
+}
+
+section .container .content-right form .btn1 input {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #444;
+    border: none;
+    cursor: pointer;
+}
+
+section .container .content-right form .btn1 input:hover {
+    color: #CCC;
+}
+section .container p {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+section .container-btm .col {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+/* section form{
+    width: 800px;
+} */
+section .container-btm{
+    margin-top: 30px;
+}
+section .container-btm p{
+    margin: 20px 40px;
+}
+section .container-btm .col-text .col2 input,
+section .container-btm .col-text .col2 textarea {
+    width: 100%;
+}
+
+section .container-btm .col input,
+section .container-btm .col-text .col2 input,
+section .container-btm .col-text .col2 textarea {
+    padding: 6px;
+    outline: none;
+    border: 1px solid #8b4303;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+
+}
+
+
+section .container-btm .col-text .col2 input {
+    margin-bottom: 15px;
+}
+
+section .container-btm .col input {
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+section .container-btm .col input:focus,
+section .container-btm .col-text .col2 input:focus,
+section .container-btm .col-text .col2 textarea:focus{
+    box-shadow: 0 0 5px #965924;
+    border: none;
+}
+section .container-btm .btn{
+    text-align: center;
+}
+section .container-btm .btn input{
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #444;
+    border: none;
+    cursor: pointer;
+}
+
+section .container-btm .btn input:hover{
+    color: #CCC;
+}

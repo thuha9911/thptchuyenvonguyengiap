@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON*/
+a {
+    text-decoration: none;
+}
+
+h4 {
+    color: #444;
+    font-size: 17px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+/* NAVIGATION */
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: url(../images/vng.jpg) no-repeat center/cover;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    padding: 0 80px;
+    background-color: #444;
+    border-bottom: 2px 6px solid #daad86;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a.active {
+    color: #fcad68;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    line-height: 24px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.5s ease-in;
+
+}
+
+nav ul li a:hover {
+    color: #9c4c05;
+    /* transition: color 0.5s ease-in; */
+    border-bottom: 4px solid #fcad68;
+}
+
+nav input {
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+nav button {
+    height: 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav .icon {
+    font-size: 16px;
+    color: #ffffff;
+    transition: all 1.5s;
+}
+
+nav .icon:hover {
+    color: #9c4c05;
+    cursor: pointer;
+}
+
+/* CONTENT */
+.margin-section {
+    margin: 0 80px;
+}
+
+.arrow .icon{
+    position: fixed;
+    color: #c65615;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+}
+/* footer */
+footer {
+    background-color: #444;
+}
+
+footer>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #8b4303;
+}
+
+footer ul li.w15 {
+    width: 15%;
+}
+
+footer ul li.w20 {
+    width: 18%;
+}
+
+footer ul li.w45 {
+    width: 25%;
+}
+
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li span {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 2px solid #965924;
+}
+
+footer ul .space {
+    margin-top: 20px;
+}
+
+footer ul li img {
+    display: block;
+    margin: 10px auto;
+}
+
+footer ul li a.text {
+    color: #fff;
+    text-align: center;
+}
+
+footer ul li div.social {
+    display: flex;
+}
+
+footer ul li div.social .logo {
+    padding: 7px 10px 7px 0;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+footer ul li div.social .logo:hover {
+    color: #daad86;
+}
+
+footer ul li a {
+    color: #fff;
+    padding: 7px 0;
+    text-decoration: none;
+    display: block;
+}
+
+footer ul li a:hover {
+    color: #daad86;
+}
+
+footer ul li p {
+    padding-bottom: 5px;
+    color: rgb(163, 146, 127);
+    font-size: 13px;
+    border-bottom: 1px dotted rgb(163, 146, 127);
+}
+
+footer>p {
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
